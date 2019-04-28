@@ -5,3 +5,11 @@
     clear: both;
   }
 }
+
+// Center an element vertically and horizontally
+@mixin centerHorizontalVertical {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
