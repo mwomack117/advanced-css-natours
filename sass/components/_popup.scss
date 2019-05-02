@@ -87,4 +87,27 @@
       color: $color-primary;
     }
   }
+
+  // working on popup
+  @include respond(tab-land) {
+    &__content {
+      @include centerHorizontalVertical;
+
+      width: 82%;
+    }
+
+    &__img {
+      height: 15%;
+    }
+
+    &__text {
+      column-count: 1;
+      column-gap: 3rem; // 1em = 14px. Size of current element (1.4rem)
+      column-rule: none;
+    }
+
+    .heading-secondary {
+      font-size: 3rem;
+    }
+  }
 }
