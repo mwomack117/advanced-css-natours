@@ -38,4 +38,10 @@ body {
   @include respond(tab-port) {
     padding: 0;
   }
+
+  // customize text highlighting. Cool personal style
+  ::selection {
+    background-color: $color-primary;
+    color: $color-white;
+  }
 }
